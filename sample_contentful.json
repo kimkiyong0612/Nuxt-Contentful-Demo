@@ -1,0 +1,132 @@
+{
+  "title": "Automate with webhooks",
+  "slug": "automate-with-webhooks",
+  "heroImage": {
+    "sys": {
+      "space": {
+        "sys": {
+          "type": "Link",
+          "linkType": "Space",
+          "id": "r3qxkoipmncl"
+        }
+      },
+      "id": "4shwYI3POEGkw0Eg6kcyaQ",
+      "type": "Asset",
+      "createdAt": "2021-02-15T07:01:04.388Z",
+      "updatedAt": "2021-02-15T07:01:04.388Z",
+      "environment": {
+        "sys": {
+          "id": "master",
+          "type": "Link",
+          "linkType": "Environment"
+        }
+      },
+      "revision": 1,
+      "locale": "en-US"
+    },
+    "fields": {
+      "title": "Man in the fields",
+      "description": "Tattooed man walking in a field",
+      "file": {
+        "url": "//images.ctfassets.net/r3qxkoipmncl/4shwYI3POEGkw0Eg6kcyaQ/8d580d6129de838a10a8947cbe6c37a6/felix-russell-saw-112140.jpg",
+        "details": {
+          "size": 4539181,
+          "image": {
+            "width": 2500,
+            "height": 1667
+          }
+        },
+        "fileName": "felix-russell-saw-112140.jpg",
+        "contentType": "image/jpeg"
+      }
+    }
+  },
+  "description": "Webhooks notify you, another person or system when resources have changed by calling a given HTTP endpoint.",
+  "body": "## What are webhooks?\n\nThe webhooks are used to notify you when content has been changed. Specify a URL, configure your webhook, and we will send an HTTP POST request whenever something happens to your content.\n\n## How do I configure a webhook?\n\nGo to Settings → Webhooks from the navigation bar at the top. From there, hit Add webhook, and you will be directed to your new webhook. Then choose a name, put in the information of your HTTP endpoint (URL and authentication), specify any custom headers and select the types of events that should trigger the webhook.\n\n## Why do I get an old version in the CDA?\n\nAs the delivery API is powered by a CDN network consisting of hundreds of servers distributed across continents, it takes some time (up to a few minutes) to reflect the changes to the published content. This must be taken into consideration when reacting to webhooks. In normal conditions, there could be a reasonable delay of 2 to 5 minutes.\n\nExtracted from the [Webhooks FAQ](https://www.contentful.com/faq/webhooks/ \"Webhooks FAQ\").",
+  "author": {
+    "sys": {
+      "space": {
+        "sys": {
+          "type": "Link",
+          "linkType": "Space",
+          "id": "r3qxkoipmncl"
+        }
+      },
+      "id": "15jwOBqpxqSAOy2eOO4S0m",
+      "type": "Entry",
+      "createdAt": "2021-02-15T07:01:09.687Z",
+      "updatedAt": "2021-02-15T07:01:09.687Z",
+      "environment": {
+        "sys": {
+          "id": "master",
+          "type": "Link",
+          "linkType": "Environment"
+        }
+      },
+      "revision": 1,
+      "contentType": {
+        "sys": {
+          "type": "Link",
+          "linkType": "ContentType",
+          "id": "person"
+        }
+      },
+      "locale": "en-US"
+    },
+    "fields": {
+      "name": "John Doe",
+      "title": "Web Developer",
+      "company": "ACME",
+      "shortBio": "Research and recommendations for modern stack websites.",
+      "email": "john@doe.com",
+      "phone": "0176 / 1234567",
+      "facebook": "johndoe",
+      "twitter": "johndoe",
+      "github": "johndoe",
+      "image": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "r3qxkoipmncl"
+            }
+          },
+          "id": "7orLdboQQowIUs22KAW4U",
+          "type": "Asset",
+          "createdAt": "2021-02-15T07:01:03.995Z",
+          "updatedAt": "2021-02-15T07:01:03.995Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Sparkler",
+          "description": "John with Sparkler",
+          "file": {
+            "url": "//images.ctfassets.net/r3qxkoipmncl/7orLdboQQowIUs22KAW4U/e798506365aae9f10f998ebd80e42961/matt-palmer-254999.jpg",
+            "details": {
+              "size": 2293094,
+              "image": {
+                "width": 3000,
+                "height": 2000
+              }
+            },
+            "fileName": "matt-palmer-254999.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    }
+  },
+  "publishDate": "2017-05-12T00:00+02:00",
+  "tags": [
+    "javascript"
+  ]
+}
