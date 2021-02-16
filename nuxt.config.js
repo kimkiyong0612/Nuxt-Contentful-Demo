@@ -43,6 +43,10 @@ module.exports = {
       }
     }
   },
-    buildModules: ['@nuxtjs/tailwindcss']
+    buildModules: [
+      '@nuxtjs/tailwindcss',
+      '@nuxt/components'
+    ],
+    components:true,
 }
 

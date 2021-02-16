@@ -1,10 +1,16 @@
 <template>
   <div>
-    <TheHeader />
-    <main>
-      <nuxt />
-    </main>
-    <TheFooter />
+    <!-- render data of the person -->
+    <h1 class="bg-green-200">{{ person.fields.name }}</h1>
+    <!-- render blog posts -->
+    <ul class="list-outside">
+      <li v-for="post in posts" :key="post.id">
+        {{ post.fields.title }}
+      </li>
+      <li>
+        <!-- {{ post.fields }} -->
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -39,14 +45,4 @@ export default {
   }
 };
 </script>
-<style>
-h1 {
-  @apply text-3xl;
-}
-h2 {
-  @apply text-xl;
-}
-main {
-  @apply m-20;
-}
-</style>
+<style scoped></style>
