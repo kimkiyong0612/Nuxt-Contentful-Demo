@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- render data of the person -->
-    <h1>{{ person.fields.name }}</h1>
+    <h1 class="bg-green-200">{{ person.fields.name }}</h1>
     <!-- render blog posts -->
     <ul v-for="post in posts" :key="post.id">
       <li>
