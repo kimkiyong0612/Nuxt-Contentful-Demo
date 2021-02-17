@@ -6,6 +6,9 @@
     <ul class="list-outside">
       <li v-for="post in posts" :key="post.id">
         {{ post.fields.title }}
+        <pre>
+        {{ post.fields.description }}
+        </pre>
       </li>
       <li>
         <!-- {{ post.fields }} -->

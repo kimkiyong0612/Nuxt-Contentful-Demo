@@ -91,7 +91,7 @@
                       </svg>
                       <div class="ml-4">
                         <p class="text-base font-medium text-gray-900">
-                          Help Center
+                          Help Center(現在作成中)
                         </p>
                         <p class="mt-1 text-sm text-gray-500">
                           Get all of your questions answered in our forums or
@@ -122,7 +122,7 @@
                       </svg>
                       <div class="ml-4">
                         <p class="text-base font-medium text-gray-900">
-                          Guides
+                          Guides(現在作成中)
                         </p>
                         <p class="mt-1 text-sm text-gray-500">
                           Learn how to maximize our platform to get the most out
@@ -153,7 +153,7 @@
                       </svg>
                       <div class="ml-4">
                         <p class="text-base font-medium text-gray-900">
-                          Events
+                          Events(現在作成中)
                         </p>
                         <p class="mt-1 text-sm text-gray-500">
                           See what meet-ups and other events we might be
@@ -184,59 +184,13 @@
                       </svg>
                       <div class="ml-4">
                         <p class="text-base font-medium text-gray-900">
-                          Security
+                          Security(現在作成中)
                         </p>
                         <p class="mt-1 text-sm text-gray-500">
                           Understand how we take your privacy seriously.
                         </p>
                       </div>
                     </a>
-                  </div>
-                  <div class="px-5 py-5 bg-gray-50 sm:px-8 sm:py-8">
-                    <div>
-                      <h3
-                        class="text-sm tracking-wide font-medium text-gray-500 uppercase"
-                      >
-                        Recent Posts
-                      </h3>
-                      <ul class="mt-4 space-y-4">
-                        <li class="text-base truncate">
-                          <a
-                            href="#"
-                            class="font-medium text-gray-900 hover:text-gray-700"
-                          >
-                            Boost your conversion rate
-                          </a>
-                        </li>
-
-                        <li class="text-base truncate">
-                          <a
-                            href="#"
-                            class="font-medium text-gray-900 hover:text-gray-700"
-                          >
-                            How to use search engine optimization to drive
-                            traffic to your site
-                          </a>
-                        </li>
-
-                        <li class="text-base truncate">
-                          <a
-                            href="#"
-                            class="font-medium text-gray-900 hover:text-gray-700"
-                          >
-                            Improve your customer experience
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="mt-5 text-sm">
-                      <a
-                        href="#"
-                        class="font-medium text-indigo-600 hover:text-indigo-500"
-                      >
-                        View all posts <span aria-hidden="true">&rarr;</span></a
-                      >
-                    </div>
                   </div>
                 </div>
               </div>
@@ -248,9 +202,6 @@
   </div>
 </template>
 <script>
-import { createClient } from "~/plugins/contentful.js";
-
-const client = createClient();
 export default {
   data: function() {
     return {
