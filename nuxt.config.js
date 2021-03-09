@@ -20,6 +20,7 @@ if(environment ==='production'){
 
 module.exports = {
   env: envSet,
+  target:'static',
   /*
   ** Headers of the page
   */
