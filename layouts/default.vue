@@ -23,6 +23,7 @@ h2 {
   @apply text-xl;
 }
 main {
-  @apply m-20;
+  @apply mx-5;
+  @apply my-10;
 }
 </style>

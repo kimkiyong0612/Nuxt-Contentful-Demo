@@ -5,7 +5,7 @@
     >
       <img
         class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
-        alt="hero"
+        alt="dummy"
         src="https://dummyimage.com/720x600"
       />
       <div class="text-center lg:w-2/3 w-full">
