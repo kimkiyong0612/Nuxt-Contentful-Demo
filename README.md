@@ -1,6 +1,6 @@
-# nuxtcontetful
+# nuxtcontetful(JAMStack)
 
-> Nuxt.js + contentful JAMStackApp
+> Nuxt.js + contentful + tailwindcss
 
 ## create .contentful.json
 ```JSON
