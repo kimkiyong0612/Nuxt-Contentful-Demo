@@ -1,5 +1,5 @@
 <template>
-  <div class="header fixed top-0 w-full" @click="moreDisplay = false">
+  <div class="header fixed top-0 w-full">
     <div class="relative bg-white">
       <div class="mx-auto px-4 sm:px-6">
         <div
@@ -14,7 +14,10 @@
             </a>
           </div>
 
-          <nav class="flex justify-end space-x-10">
+          <nav
+            class="flex justify-end space-x-10"
+            @click="moreDisplay = !moreDisplay"
+          >
             <a
               href="/posts"
               class="text-base font-medium text-gray-500 hover:text-gray-900"
