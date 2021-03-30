@@ -1,5 +1,5 @@
 <template>
-  <div class="header fixed top-0 w-full">
+  <div class="header fixed top-0 w-full" @click="moreDisplay = false">
     <div class="relative bg-white">
       <div class="mx-auto px-4 sm:px-6">
         <div
