@@ -16,7 +16,6 @@
 
           <nav
             class="flex justify-end space-x-10"
-            @click="moreDisplay = !moreDisplay"
           >
             <a
               href="/posts"
