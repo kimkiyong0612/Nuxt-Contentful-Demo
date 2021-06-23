@@ -1,4 +1,4 @@
-# nuxtcontetful(JAMStack)
+# nuxt.js+contetful(JAMStack)
 
 > Nuxt.js + contentful + tailwindcss
 
